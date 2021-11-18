@@ -1,0 +1,467 @@
+.head{
+	background: url(./src/1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 400px;
+	position: relative;	
+	z-index: 1;
+}
+.fontss{
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+.headuaa{
+	width: 72%;
+	
+}
+.color-overlay{
+	width: 100%;
+	height: 100%;
+	background: #0000004d;
+	opacity: 1;
+	color: white;
+	z-index: 2;
+	position: relative;
+}
+
+.head background-image{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.1;
+}
+.navbar{
+	font-size: 13px;
+	
+}
+.navbar-brand{
+	font-size: 14px;
+}
+.btn{
+	font-size: 12px;
+	padding: 2px 15px;
+	margin: 3px 0;
+}
+.secsection{
+	background-color: #F9F9F9;
+	
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.headh1{
+	padding-top: 30px;
+	font-size: 44px;
+	text-align: right;
+}
+.headh2{
+	padding-top: 10px;
+	text-align: right;
+	
+}	
+.headp1{
+	padding-top: 10px;
+	text-align: right;
+}
+.contact{
+	background-image: url(./src/2.jpg);
+	width: 100%;
+	height: 300px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 30px;
+	z-index: 1;
+	}
+.nopading{
+	padding: 0;
+}
+.boxes{
+	background-color: #CFCFCF;
+	width: 100%;
+	padding-bottom: 40px;
+	margin-bottom: 60px;
+	margin-top: 50px;
+}
+.boxesspecify{
+	width: 73%;
+	margin: 0 auto;
+}
+
+.exploreimg{
+	width: 55%;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+.twoimg{
+	width: 100%;
+	height: 350px;
+}
+.guideimg1{
+	
+	width: 100%;
+}
+.guideimg2{
+	width: 100%;
+}
+.guideimg3{
+	
+	width: 100%;
+}
+.guideimghnp{
+	margin-left: 25px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.card1{
+	margin-top: 50px;
+	
+	}
+.card2{
+	margin-top: 50px;
+		width: 90%;
+	float: right;
+	
+	}
+.card3{
+	margin-top: 50px;
+	width: 90%;
+	float: right;
+	}
+.maps{
+	width: 100%;
+	height: 300px;
+	background-size: contain;
+	}
+.twoimg1{
+	width: 82%;
+	float: right;
+	
+	}
+.twoimg2{
+	width: 70%;
+	}
+.maps{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background: url(./src/iceland2.png);
+	width: 100%;
+	height: 300px;
+	}
+
+footer{
+	background-color: #2E2E2E;
+	}
+.formarea{
+	height: auto;
+	width: 550px;
+	text-align: center;
+}
+.orgform{
+	width: 100%;
+}
+
+@media only screen and (max-width: 796px) {
+	.navbar{
+		font-size: 10px;
+		align-items: center;	
+	}
+	.btn{
+		font-size: 10px;
+	}
+	.navbar-brand{
+		font-size: 12px;
+	}
+
+	.guideimgheading1{
+		margin-top: 189px;
+	}	
+	.guideimgheading3{
+		margin-top: 189px;
+	}
+}
+
+@media only screen and (max-width:768px){
+		.navbar{
+		font-size: 10px;
+		align-items: center;
+	}
+	.navbar-brand{
+		font-size: 12px;
+	}
+	.guideimgheading2{
+		margin-top: 30px;
+	}
+	.btn{
+		font-size: 8px;
+	}
+	.boxes{
+		height: auto;
+		padding-bottom: 40px;
+		margin-bottom: 40px;
+	}
+	.twoimg{
+		height: auto;
+	}
+	.twoimg1{
+		width: 100%;
+	}
+	.twoimg2{
+		width: 80%;
+	}
+	.guideimgheading2{
+		padding-top: 40px;
+	}
+
+
+}
+
+@media only screen and (max-width:651px){
+	.navbar{
+		font-size: 8.5px;
+	}
+	.btn{
+		font-size: 7.5px;
+	}
+	
+}
+
+@media only screen and (max-width:595px){
+	.navbar{
+		font-size: 8.5px;
+	}
+	.navbar-brand{
+		font-size: 9px;
+	}
+}
+
+@media only screen and (max-width: 576px){
+		.navbar-brand{
+		font-size: 9px;
+	}
+	.head{
+		height: 470px;
+	}
+	.navbar-brand{
+		font-size: 12px;
+	}
+
+	.headh1{
+		font-size: 35px;
+		
+	}
+	.secsection{
+		height: auto;
+	}
+	.contact{
+		height: 300px;
+		text-align: center;
+	}
+	#btn1{
+		float: left;
+		margin-left: 80px;
+	}
+	.contact  button{
+		float: right;
+		margin-right: 77px;
+	
+	}
+	.exp{
+		font-size: 25px;
+		margin-top: 25px;
+		margin-bottom: 20px;
+	}
+	.explore img{
+		margin-top: 100px;
+		width: 100%;
+	}
+
+	.guideimgheading1{
+		margin-top: 321px;
+		margin-left: 55px;
+		margin-right: 50px;
+	}	
+.guideimgheading2{
+		margin-left: 60px;
+	}
+	.guideimgheading3{
+		margin-left: 50px;
+		margin-top: 321px;
+		
+	}
+	.guideimgp1{
+		margin-left: 53px;
+		margin-right: 57px;
+		margin-top: 20px;
+		margin-bottom: 55px;
+	}
+	.guideimgp2{
+		margin-top: 20px;
+		margin-bottom: 55px;
+	}
+		.guideimgp3{
+		margin-top: 20px;
+		margin-bottom: 55px;
+	}
+	.bottomspace{
+		margin-bottom:45px;
+	}
+  .boxes{
+	
+	height: auto;
+}
+	.card1{
+		margin-top: 80px;
+		margin-right: 15px;
+		margin-left: 15px;
+	}	
+	.card3{
+		margin-right: 15px;
+		margin-left: 15px;
+		margin-bottom: 80px;
+	}
+	.twoimg1{
+		width: 100%;
+		margin-bottom: 30px;
+	}	
+	.twoimg2{
+		width: 90%;
+		margin-bottom: 40px;
+		margin-left: 18px;
+	}
+	.maps  {
+
+	margin-bottom: 100px;
+	background: url(./src/iceland2.png);
+	width: 100%;
+	height: 300px;
+	
+	}
+	.formarea{
+		width: 100%;
+	}
+	.headuaa{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 375px){
+	.navbar-brand{
+		font-size: 14px;
+	}
+	.headheadings{
+		margin-left: 0;
+	}
+	.head{
+		height: 470px;
+	}
+	.headh2{
+		padding-left: 0px;
+	}
+	.headp1{
+		padding-left: 0;
+	}
+	.heading3{
+		float: right;
+	}
+	.pra{
+		float: right;
+	}
+	.headh1{
+		font-size: 35px;
+		margin-left: 45px;
+	}
+	.secsection{
+		height: auto;
+	}
+	.contact{
+		height: 300px;;
+	}
+	.contact  button{
+		float: right;
+		margin-right: 77px;
+	}
+	.exp{
+		font-size: 25px;
+		margin-top: 25px;
+		margin-bottom: 20px;
+	}
+	.explore img{
+		margin-top: 100px;
+		width: 100%;
+	}
+
+	.guideimgheading1{
+		margin-top: 274px;
+		margin-left: 55px;
+		margin-right: 50px;
+	}	
+.guideimgheading2{
+		margin-left: 60px;
+	}
+	.guideimgheading3{
+		margin-left: 50px;
+		margin-top: 274px;	
+	}
+	.guideimgp1{
+		margin-left: 53px;
+		margin-right: 57px;
+		margin-top: 20px;
+		margin-bottom: 55px;
+	}
+	.guideimgp2{
+		margin-top: 20px;
+		margin-bottom: 55px;
+	}
+		.guideimgp3{
+		margin-top: 20px;
+		margin-bottom: 55px;
+	}
+	.bottomspace{
+		margin-bottom:45px;
+	}
+  .boxes{
+	
+	height: auto;
+	}
+	.card1{
+		margin-top: 80px;
+		margin-right: 15px;
+		margin-left: 15px;
+	}	
+	.card3{
+		margin-right: 15px;
+		margin-left: 15px;
+		margin-bottom: 80px;
+	}
+	.twoimg1{
+		width: 100%;
+		margin-bottom: 30px;
+		margin-top: 40px;
+	}	
+	.twoimg2{
+		width: 90%;
+		margin-bottom: 40px;
+		margin-left: 20px;	
+	}
+	.maps  {
+	background: url(./src/iceland2.png);
+	width: 100%;
+	height: 300px;
+	}
+	.inp1{
+		width: 330px;
+	}
+	.inp2{
+		width: 330px;
+	}
+	.inp3{
+		width: 330px;
+	}
+	.headuaa{
+		width: 100%;
+	}
+	}
+
+
